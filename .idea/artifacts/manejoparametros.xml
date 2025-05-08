@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="manejoparametros">
+    <output-path>$PROJECT_DIR$/out/artifacts/manejoparametros</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="manejoparametros" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="manejoparametros/web/Web" />
+    </root>
+  </artifact>
+</component>
