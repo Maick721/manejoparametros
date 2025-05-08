@@ -5,12 +5,22 @@
   <title>Manejo de Parametros</title>
 </head>
 <body>
-  <h1>Manejo de parametros</h1>
+<h1>Manejo de parametros</h1>
 
-  <ul>
-    <li>
-      <a href="">Enviando parametro Saludo</a>
-    </li>
-  </ul>
+<ul> <!-- Comienza una lista desordenada -->
+  <li><!-- Enlace para enviar solo el saludo -->
+    <a href="/manejoparametros/manejoparametros/url-get?saludo=Hola Maiccol">Enviando parametro Saludo</a>
+  </li>
+  <li><!-- Enlace con saludo, nombre y código -->
+    <a href="/manejoparametros/manejoparametros/url-get?saludo=Hola&nombre=Maiccol&codigo=123456">Saludo concatenado con el nombre y el código de acceso</a>
+  </li>
+  <li><!-- Enlace solo con saludo y nombre -->
+    <a href="/manejoparametros/manejoparametros/url-get?saludo=Hola&nombre=Maiccol">Saludo concatenado con el Nombre</a>
+  </li>
+
+  <li><!-- Enlace solo con el nombre -->
+    <a href="/manejoparametros/manejoparametros/url-get?nombre=Maiccol">nombre</a>
+  </li>
+</ul>
 </body>
 </html>
